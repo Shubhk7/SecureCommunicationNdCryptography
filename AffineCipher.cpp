@@ -42,7 +42,6 @@ char decryptChar(char ch, int a, int b)
 string encrypt(string message, int a, int b)
 {
     string result = "";
-
     for (char ch : message)
     {
         result += encryptChar(ch, a, b);
